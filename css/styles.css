@@ -303,6 +303,10 @@ button {
   background: #ffffff;
   border-radius: 4px;
   padding: 40px;
+
+  transition-property: close;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-titel {
@@ -458,15 +462,15 @@ button {
   display: inline-flex;
 }
 
-.modal-checbox {
-  display: flex;
+.checbox {
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   /* margin-bottom: 30px; */
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 12px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: #757575;
