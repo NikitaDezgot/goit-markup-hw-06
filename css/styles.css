@@ -533,7 +533,7 @@ button {
   align-items: center;
   justify-content: center;
 }
-.checkbox-text:checked + .modal-checkbox-span {
+.modal-checkbox:checked + .checkbox-text span {
   background-color: #2196f3;
   border: none;
 }
