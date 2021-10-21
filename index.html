@@ -72,60 +72,55 @@
                         <p class="modal-titel">Оставьте свои данные, мы вам перезвоним</p>
                     <form action="" class="modal-list">
                         <div class="modal-form">
-                            <label for="modal-list-text">
-                        <p class="modal-list-text">Имя</p>
-                            </label>
-                        <label for="user-name" class="modal-text-inf"></label>
-                        
-                        <input class="modal-list-contact" name="user-name" id="user-name" type="text"  required>
+                            <label for="user-name" class="modal-list-text">Имя</label>              
+                            <input class="modal-list-contact" name="user-name" id="user-name" type="text"  required>
                         <span class="input-list">
-                        <svg class="modal-icon">
-                            <use href="./images/sprite(2).svg#icon-modal-name"></use>
-                        </svg>
+                            <svg class="modal-icon">
+                                <use href="./images/sprite(2).svg#icon-modal-name"></use>
+                            </svg>
                         </span>
                         </div>
                         <div class="modal-form">
-                            <label for="modal-list-text">
-                        <p class="modal-list-text">Телефон</p>
-                            </label>
-                        <label for="user-tel"></label>
-                        
-                        <input class="modal-list-contact" name="user-tel" id="user-tel" type="tel" >
+                            <label for="user-tel" class="modal-list-text">Телефон</label>
+                            <input class="modal-list-contact" name="user-tel" id="user-tel" type="tel" >
                         <span class="input-list">
-                        <svg class="modal-icon">
-                            <use href="./images/sprite(2).svg#icon-modal-tel"></use>
-                        </svg>
+                            <svg class="modal-icon">
+                                <use href="./images/sprite(2).svg#icon-modal-tel"></use>
+                            </svg>
                         </span>
                         </div>
                         <div class="modal-form">
-                            <label for="modal-list-text">
-                        <p class="modal-list-text">Почта</p>
-                            </label>
-                        <label for="user-mail"></label>
-                        
-                        <input class="modal-list-contact" name="user-mail" id="user-mail" type="email" >
+                            <label for="user-mail" class="modal-list-text">Почта</label>                       
+                            <input class="modal-list-contact" name="user-mail" id="user-mail" type="email" >
                         <span class="input-list">
-                        <svg class="modal-icon">
-                            <use href="./images/sprite(2).svg#icon-modal-email"></use>
-                        </svg>
+                            <svg class="modal-icon">
+                                <use href="./images/sprite(2).svg#icon-modal-email"></use>
+                            </svg>
                         </span>
                         </div>
                         <div class="modal-form-coment">
-                            <label for="modal-list-text">
-                        <p class="modal-list-text">Комментарий</p>
-                            </label>
-                        <label for="user-comit"></label>
-                        <textarea class="modal-list-form" name="user-comit" id="user-comit" placeholder="Введите текст"></textarea>
+                            <label for="user-comit" class="modal-list-text">Комментарий</label>
+                            <textarea class="modal-list-form" name="user-comit" id="user-comit" placeholder="Введите текст"></textarea>
                         </div>
-                        <input type="checkbox">
+
+                        <input type="checkbox" id="modal-checkbox" class="modal-checkbox form-checkbox">
+                        <label for="modal-checkbox" class="checkbox-text">
+                            <span class="modal-checkbox-span">
+                                <svg width="11px" height="8px" class="modal-checkbox-svg">
+                                    <use href="./images/sprite(2).svg#icon-chekkkkk"></use>
+                                </svg>
+                            </span> Соглашаюсь с рассылкой и принимаю
+                            <a href="" class="modal-checbox-link">Условия договора</a>
+                        </label>
+                        <!-- <input type="checkbox" class="form-checkbox">
                         <label for="checkbox" class="checkbox">
                         <span class="modal-checkbox-span">
                             <svg width="11px" height="8px" class="modal-checkbox-svg">
                                 <use href="./images/sprite(2).svg#icon-chekkkkk"></use>
                             </svg>
-                            Соглашаюсь с рассылкой и принимаю
-                            <a href="" class="modal-checbox-link">Условия договора</a>
-                        </span>
+                        </span> -->
+                            <!-- Соглашаюсь с рассылкой и принимаю
+                            <a href="" class="modal-checbox-link">Условия договора</a> -->
                         </label>
 
                         <button type="submit" class="button-modal-list">Отправить</button>
